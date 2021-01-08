@@ -5,14 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@types/jest": "^26.0.19",
     "bootstrap": "^5.0.0-beta1",
+    "imagemin-svgo": "^8.0.0",
+    "jest": "^26.6.3",
     "next": "10.0.4",
+    "next-optimized-images": "^3.0.0-canary.10",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "recoil": "^0.1.2"
+    "recoil": "^0.1.2",
+    "ts-jest": "^26.4.4"
   },
   "devDependencies": {
     "@types/node": "^14.14.19",

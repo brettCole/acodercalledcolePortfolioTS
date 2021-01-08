@@ -1,0 +1,8 @@
+.macbook-intro {
+  background-image: url(../public/OversizedMacbook.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  background-attachment: scroll;
+  overflow: visible;
+}
